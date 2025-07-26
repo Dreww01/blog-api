@@ -1,1 +1,96 @@
-services.py
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+# Usually these files are written to the same directory as the script,
+# but if you have configured PyInstaller to create a build folder, use this:
+# /build
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# VS Code settings
+.vscode/
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+virtualenv/
+# If you are using a virtual environment that is not in the root directory,
+# you may need to adjust this path.
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Database files (if you were using a local DB like SQLite, though not applicable for MongoDB here)
+# *.sqlite3
+# *.db
+
+# PyInstaller
+# If you are packaging your Python code with PyInstaller, you might want to ignore
+# the build and dist folders.
+# /build
+# /dist
+
+# FastAPI / Uvicorn specific
+*.pyc
+*.pyo
+*.pydyo
+
+# MongoDB specific (if you were storing data files locally, which is not typical for MongoDB Atlas)
+# data/db/
+# db/
+
+# Other common ignores
+*.swp
+*~
